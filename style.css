@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #90EE90;
+  }
+
+  .heading {
+    
+    color: white;
+    padding: 20px;
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  .bg-container {
+    padding: 50px;
+    background-image: url("img.png");
+    color: white;
+  }
+
+  .title {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  .frame{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+    align-self: flex-end;
+  }
+  .list{
+    margin: 5px;
+  }
+  .description {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+
+.para{
+    color:white;
+}
+.buy{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
+.button{
+    color:white;
+    background-color:#d11557;
+    border-radius: 5px;
+}
+
+.buy-button{
+    color: white;
+    background-color: #d11557;
+    border-radius: 5px;
+    height: 50px;
+    width: 150px;
+    margin-top: 10px;
+}
+.button-bottom{
+    color: white;
+    background-color: #1cd43a;
+    border-radius: 5px;
+    height: 50px;
+    width: 150px;
+    margin-top: 10px;
+}
